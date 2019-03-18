@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  ul.list-group
+    each movie, i in movies
+      li.list-group-item
+        h4 #{movie.title}
+        h5 Directed by #{movie.director}
+        h6 #{movie.description}
+        a.btn.btn-danger.delete-movie-btn(href='#', data-id=movie._id) Delete this movie

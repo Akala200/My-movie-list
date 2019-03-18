@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 Add a new movie
+  form(method='POST', action='/movies/add')
+    #form-group
+      label Title:
+      input.form-control(name='title', type='text')
+    #form-group
+      label Director:
+      input.form-control(name='director', type='text')
+    #form-group
+      label Description:
+      textarea.form-control(name='description')
+    br
+    input.btn.btn-primary(type='submit', value='Submit')

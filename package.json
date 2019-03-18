@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-watchlist",
+  "version": "0.1.0",
+  "description": "watchlist application to track movies and series",
+  "main": "app.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatrickKubica/nodejs-watchlist.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "nodejs"
+  ],
+  "author": "Patrick Kubica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickKubica/nodejs-watchlist/issues"
+  },
+  "homepage": "https://github.com/PatrickKubica/nodejs-watchlist#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
